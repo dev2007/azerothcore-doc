@@ -69,7 +69,7 @@ const config = {
           hideable: true,
         },
       },
-      metadata: [{ name: 'keywords', content: 'AzerothCore,艾泽拉斯,魔兽世界,魔兽世界单机版,wow,World of Warcraft,暴雪,魔兽争霸' }],
+      metadata: [{ name: 'keywords', content: 'AzerothCore,艾泽拉斯,魔兽世界,魔兽世界单机版,wow,World of Warcraft,暴雪,魔兽争霸' },{name: "baidu-site-verification",content: "codeva-A3wvTEAORf"}],
       navbar: {
         title: 'AzerothCore 艾泽拉斯魔兽世界服务端',
         logo: {
