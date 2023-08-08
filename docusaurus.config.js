@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://azerothcore.bookhub.tech',
+  url: 'https://azeroth.bookhub.tech',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -55,7 +55,7 @@ const config = {
       crossorigin: 'anonymous'
     },
     {
-      src: 'https://hm.baidu.com/hm.js?2bb640b3d02f2dfa0c0b4ef151d1d852',
+      src: 'https://hm.baidu.com/hm.js?515219eaf5ea41da1f256ab6720cc764',
       async: true
     }
   ],
