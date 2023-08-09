@@ -17,7 +17,26 @@ const sidebars = {
   tutorialSidebar: [
     "intro",
     "installation",
-    "requirements"
+    {
+      type: 'category',
+      label: '1. 安装要求',
+      link: {type: 'doc',id: 'requirements'},
+      items: [
+        'requirements/linux-requirements',
+        'requirements/macos-requirements',
+        'requirements/windows-requirements'
+      ]
+    },
+    {
+      type: 'category',
+      label: '2. 核心安装',
+      link: {type: 'doc',id: 'core-installation'},
+      items: [
+        'core-installation/linux-core-installation',
+        'core-installation/macos-core-installation',
+        'core-installation/windows-core-installation'
+      ]
+    },
   ],
 
   // But you can create a sidebar manually
