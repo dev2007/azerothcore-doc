@@ -66,11 +66,26 @@ const sidebars = {
           ]
         },
         "client-setup",
-        "install-with-docker",
-        "ac-dashboard-core-installation"
+      ],
+    },
+    "install-with-docker",
+    "ac-dashboard-core-installation",
+    {
+      type: 'category',
+      label: '贡献',
+      items: [
+        'contribute',
       ]
     },
-   
+    {
+      type: 'category',
+      label: '其他',
+      items: [
+        'common-errors',
+        'how-to-ask-for-help',
+        'faq',
+      ]
+    },
   ],
 
   // But you can create a sidebar manually
