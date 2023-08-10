@@ -1,6 +1,6 @@
-# Micronaut 文档翻译及 Micronaut 实战（Mirconaut In Action）
+# AzerothCore 魔兽世界服务端
 
-Micronaut 文档的中文翻译及实战文章。
+魔兽世界服务端部署文档，在线阅读：https://azeroth.bookhub.tech/
 
 ## 本地运行
 
@@ -25,7 +25,3 @@ npm run start
 
 client (webpack 5.75.0) compiled successfully
 ```
-
-## 查看文档
-
-[在网站查看文档](https://micronaut.bookhub.tech)
