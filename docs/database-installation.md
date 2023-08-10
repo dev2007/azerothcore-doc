@@ -22,7 +22,7 @@ https://github.com/azerothcore/azerothcore-wotlk/blob/master/data/sql/create/cre
 ## 填充数据库
 ---
 
-如果您想了解 SQL 目录的工作原理或计划进行自定义更改，我们建议您阅读此文。
+如果你想了解 SQL 目录的工作原理或计划进行自定义更改，我们建议你阅读此文。
 
 ### 自动数据库更新程序
 

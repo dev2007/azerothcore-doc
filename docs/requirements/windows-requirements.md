@@ -32,7 +32,7 @@ sidebar_position: 30
     1. 下载 Windows MSI 安装程序。
     2. 向下滚动到底部并单击 "不，谢谢，请带我去下载！（No thanks, just take me to the downloads!）"
     3. 安装基本完成后，确保选中 "启动 MySQL 实例配置向导（Launch the MySQL Instance Configuration Wizard）"，然后单击 "完成（Finish）"。
-    4. 当 MySQL 实例配置向导启动时，大多数默认选项都没问题，但请记住您使用的用户名和密码（root / / 随便什么）。您需要用它们登录所选的数据库管理工具（如下），以便稍后导入 SQL 文件。
+    4. 当 MySQL 实例配置向导启动时，大多数默认选项都没问题，但请记住你使用的用户名和密码（root / / 随便什么）。你需要用它们登录所选的数据库管理工具（如下），以便稍后导入 SQL 文件。
     5. 要测试 MySQL 设置是否正确，按键盘上的 `CTRL+ALT+DEL`，进入任务管理器，选择 "服务 "选项卡。在服务列表中应看到状态为 "运行中 "的 "MySQL"。
     6. 将 MySQL 添加到环境变量。
         1. 进入控制面板 -> 系统
@@ -47,7 +47,7 @@ sidebar_position: 30
     3. HeidiSQL（最适合初学者）
     4. MySQL Workbench（如果选择安装完整 MySQL 软件包，则已安装）
     5. [DBeaver](https://dbeaver.io/)（多平台数据库管理工具）
-        1. 尝试连接数据库。您可能要查找 "连接到主机（Connect to Host）"或 "新建连接（New Connection）"或 "会话管理器（Session Manager）"，这取决于你使用的程序。
+        1. 尝试连接数据库。你可能要查找 "连接到主机（Connect to Host）"或 "新建连接（New Connection）"或 "会话管理器（Session Manager）"，这取决于你使用的程序。
         2. 创建新连接/会话。如果在安装 HeidiSQL 或 SQLYog 的同一台计算机上安装了 MySQL，则主机名/IP 地址为 "127.0.0.1 "或 "localhost "即可。只需填写 root （不用管密码），现在就可以连接到数据库了。
 
 6. [CMake](https://cmake.org/)
@@ -82,6 +82,6 @@ sidebar_position: 30
 - [常见问题](/faq)
 - [常见错误](/common-errors)
 - [如何寻求帮助](/how-to-ask-for-help)
-- [加入我们的 Discord 服务器](https://discord.gg/gkt4y2x)，但这不是一个全天候支持频道。只要有时间，工作人员就会回答您的问题。
+- [加入我们的 Discord 服务器](https://discord.gg/gkt4y2x)，但这不是一个全天候支持频道。只要有时间，工作人员就会回答你的问题。
 
 > [英文链接](https://www.azerothcore.org/wiki/windows-requirements)

@@ -13,7 +13,7 @@ sidebar_position: 30
 
 这将使你的本地仓库与来自 Azerothcore-wotlk 版本库的最新提交同步。
 
-1. 现在您需要重新运行 CMake Configure 和 Generate 来更新解决方案（.sln）文件。
+1. 现在你需要重新运行 CMake Configure 和 Generate 来更新解决方案（.sln）文件。
 2. 按照 [Windows Core 安装](/core-installation/windows-core-installation#编译源代码)中的说明编译下载的源代码
 
 ## 保持数据库更新

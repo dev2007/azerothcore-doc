@@ -17,7 +17,7 @@ sidebar_position: 60
 
 #### Realmlist 表
 
-你需要确保 **authserver** 应用程序将传入连接导向您的域。
+你需要确保 **authserver** 应用程序将传入连接导向你的域。
 
 - 运行你选择的数据库管理工具（如 SQLYog 或 HeidiSQL）或使用 MySQL 命令行界面 (CLI)。
 - 如果需要从一台外部机器连接到数据库，参阅 https://www.enovision.net/mysql-ssh-tunnel-heidisql，而不是打开 mysql 服务器的端口。
@@ -25,10 +25,10 @@ sidebar_position: 60
 
     - 局域网 IP（192.168.x.x）——如果你安装 AzerothCore 的电脑与运行魔兽世界的电脑不同，但所有相关电脑都在同一个网络（路由器）上，请使用该电脑的局域网 IP。
     - 127.0.0.1——也称为 "localhost"。如果你将 AzerothCore 安装在运行魔兽世界的同一台电脑上，且只有你自己在连接，请在此处和配置中保留此设置。
-    - 公共 IP 地址 - 如果您希望其他人连接到你的服务器，请使用你的外部 IP。访问 http://www.whatismyip.com/ 查找你的外部 IP 地址。
+    - 公共 IP 地址 - 如果你希望其他人连接到你的服务器，请使用你的外部 IP。访问 http://www.whatismyip.com/ 查找你的外部 IP 地址。
         - 如果你在家庭网络中托管服务器，你可能需要设置适当的端口转发，这不在本指南的范围之内。https://portforward.com 有适用于大多数路由器的指南，你的互联网服务提供商应该也能在这方面提供帮助。
     - 完全限定域名——（mydomain.com 或 warcraft.mydomain.com）与外部 IP 地址类似，如果你希望其他人连接到你的服务器，可以使用此域名，这样做的好处是无需跟踪可能是动态的 IP 地址。
-        - 与公共 IP 地址类似，如果您从家庭网络托管，很可能需要设置端口转发。
+        - 与公共 IP 地址类似，如果你从家庭网络托管，很可能需要设置端口转发。
         - 此外，还需要配置 DNS 以指向服务器的公共 IP 地址。设置 DNS 不在本指南的讨论范围之内，不过你的域名注册商或动态 DNS 提供商应该有这方面的文档。
 - MySQL CLI 命令（如果使用 HeidiSQL 等 MySQL 管理器，则不需要此步骤）
     - `$ sudo mysql`

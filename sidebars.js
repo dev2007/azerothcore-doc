@@ -16,52 +16,61 @@ const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   tutorialSidebar: [
     "intro",
-    "installation",
     {
       type: 'category',
-      label: '1. 安装要求',
-      link: {type: 'doc',id: 'requirements'},
+      label: '如何安装',
       items: [
-        'requirements/linux-requirements',
-        'requirements/macos-requirements',
-        'requirements/windows-requirements'
+        "installation",
+        {
+          type: 'category',
+          label: '1. 安装要求',
+          link: {type: 'doc',id: 'requirements'},
+          items: [
+            'requirements/linux-requirements',
+            'requirements/macos-requirements',
+            'requirements/windows-requirements'
+          ]
+        },
+        {
+          type: 'category',
+          label: '2. 核心安装',
+          link: {type: 'doc',id: 'core-installation'},
+          items: [
+            'core-installation/linux-core-installation',
+            'core-installation/macos-core-installation',
+            'core-installation/windows-core-installation'
+          ]
+        },
+        {
+          type: 'category',
+          label: '3. 服务器设置',
+          link: {type: 'doc',id: 'server-setup'},
+          items: [
+            'server-setup/linux-server-setup',
+            'server-setup/macos-server-setup',
+            'server-setup/windows-server-setup'
+          ]
+        },
+        "database-installation",
+        "networking",
+        "final-server-steps",
+        {
+          type: 'category',
+          label: '7.保持服务器更新',
+          link: {type: 'doc',id: 'keeping-the-server-up-to-date'},
+          items: [
+            'keeping-the-server-up-to-date/linux-keeping-the-server-up-to-date',
+            'keeping-the-server-up-to-date/macos-keeping-the-server-up-to-date',
+            'keeping-the-server-up-to-date/windows-keeping-the-server-up-to-date',
+            'keeping-the-server-up-to-date/database-keeping-the-server-up-to-date'
+          ]
+        },
+        "client-setup",
+        "install-with-docker",
+        "ac-dashboard-core-installation"
       ]
     },
-    {
-      type: 'category',
-      label: '2. 核心安装',
-      link: {type: 'doc',id: 'core-installation'},
-      items: [
-        'core-installation/linux-core-installation',
-        'core-installation/macos-core-installation',
-        'core-installation/windows-core-installation'
-      ]
-    },
-    {
-      type: 'category',
-      label: '3. 服务器设置',
-      link: {type: 'doc',id: 'server-setup'},
-      items: [
-        'server-setup/linux-server-setup',
-        'server-setup/macos-server-setup',
-        'server-setup/windows-server-setup'
-      ]
-    },
-    "database-installation",
-    "networking",
-    "final-server-steps",
-    {
-      type: 'category',
-      label: '7.保持服务器更新',
-      link: {type: 'doc',id: 'keeping-the-server-up-to-date'},
-      items: [
-        'keeping-the-server-up-to-date/linux-keeping-the-server-up-to-date',
-        'keeping-the-server-up-to-date/macos-keeping-the-server-up-to-date',
-        'keeping-the-server-up-to-date/windows-keeping-the-server-up-to-date',
-        'keeping-the-server-up-to-date/database-keeping-the-server-up-to-date'
-      ]
-    },
-    "client-setup"
+   
   ],
 
   // But you can create a sidebar manually

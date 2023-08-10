@@ -16,7 +16,7 @@ sidebar_position: 70
 - 然后直接在 **worldserver** 窗口中输入 GM Command **account create（创建账户）**，创建登录账户。语法(参阅下面的示例）
 - 如果希望将账户设置为 GM，则在 **worldserver** 窗口中键入：**account set gmlevel $account #level #realmid**， 其中，**$account** 是要更改的账户名称，**#level** 可以是 0-4，**#realmid** 是领域（realm）ID。设置 **#level** 为 "3" 表示 GM 帐户级别（数字越大=权限越大），"-1" 表示 "所有领域"的领域 ID。
 
-*提示：打开你的 **acore_world** 数据库，找到**命令（command）**表。该表显示 GM 命令的完整列表、说明和安全级别。这将是你能找到的最新列表，前提是您一直更新你的数据库和核心。*
+*提示：打开你的 **acore_world** 数据库，找到**命令（command）**表。该表显示 GM 命令的完整列表、说明和安全级别。这将是你能找到的最新列表，前提是你一直更新你的数据库和核心。*
 
 - 最小化你的服务器并运行**魔兽世界**（切勿使用启动器运行魔兽世界，除非你编辑了上述 `realmlist.wtf` 的补丁列表选项）。
 - 使用刚刚创建的用户/密码登录。

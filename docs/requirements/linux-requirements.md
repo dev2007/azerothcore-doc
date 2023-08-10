@@ -79,7 +79,7 @@ clang --version
 sudo apt-get install clang-10.0
 ```
 
-如果你使用其他发行版或版本，请在谷歌上搜索如何为您的系统安装正确的 clang 版本。
+如果你使用其他发行版或版本，请在谷歌上搜索如何为你的系统安装正确的 clang 版本。
 
 目前，该项目需要 clang10 或更高版本。
 
@@ -97,7 +97,7 @@ cmake --version
 
 你的 `cmake` 版本**必须**是 `3.16` 或更高。
 
-在旧版本的 Ubuntu 上（例如：16.04），您可以按照此处的说明安装最新版本的 cmake。在 debian 上，你需要使用 backports 源码或手动编译 Cmake。
+在旧版本的 Ubuntu 上（例如：16.04），你可以按照此处的说明安装最新版本的 cmake。在 debian 上，你需要使用 backports 源码或手动编译 Cmake。
 
 记住，可以使用 Python 更新 cmake。
 
@@ -138,6 +138,6 @@ sudo apt-get install g++-8 gcc-8
 - [常见问题](/faq)
 - [常见错误](/common-errors)
 - [如何寻求帮助](/how-to-ask-for-help)
-- [加入我们的 Discord 服务器](https://discord.gg/gkt4y2x)，但这不是一个全天候支持频道。只要有时间，工作人员就会回答您的问题。
+- [加入我们的 Discord 服务器](https://discord.gg/gkt4y2x)，但这不是一个全天候支持频道。只要有时间，工作人员就会回答你的问题。
 
 > [英文链接](https://www.azerothcore.org/wiki/linux-requirements)

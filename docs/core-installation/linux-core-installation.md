@@ -26,7 +26,7 @@ git clone https://github.com/azerothcore/azerothcore-wotlk.git --branch master -
 git clone https://github.com/azerothcore/azerothcore-wotlk.git --branch master --single-branch azerothcore --depth 1
 ```
 
-注意：如果您想得到完整的历史记录，请使用 `git fetch --unshallow`。
+注意：如果你想得到完整的历史记录，请使用 `git fetch --unshallow`。
 
 3. 克隆所有分支和所有历史：
 
@@ -63,7 +63,7 @@ cd build
 echo $HOME
 ```
 
-**注意**：如果你使用的是非默认的 `clang` 软件包，则需要相应地替换它。例如，如果您安装了 `clang-6.0`，则必须将 clang 替换为 `clang-6.0`，将 `clang++` 替换为 `clang++-6.0`
+**注意**：如果你使用的是非默认的 `clang` 软件包，则需要相应地替换它。例如，如果你安装了 `clang-6.0`，则必须将 clang 替换为 `clang-6.0`，将 `clang++` 替换为 `clang++-6.0`
 
 ```bash
 cmake ../ -DCMAKE_INSTALL_PREFIX=$HOME/azeroth-server/ -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DWITH_WARNINGS=1 -DTOOLS_BUILD=all -DSCRIPTS=static -DMODULES=static
